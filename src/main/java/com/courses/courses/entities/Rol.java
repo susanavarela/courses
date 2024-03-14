@@ -7,7 +7,6 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
-import org.antlr.v4.runtime.misc.NotNull;
 
 @Builder
 @AllArgsConstructor
