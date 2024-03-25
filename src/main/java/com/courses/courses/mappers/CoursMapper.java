@@ -16,7 +16,6 @@ public class CoursMapper{
     public Course convertCoursDTOToCours(CourseDTO courseDTO, Category category, List<Pdf> pdfs) {
         return Course.builder()
                 .category(category)
-                .pdfs(pdfs)
                 .link(courseDTO.getLink())
                 .name(courseDTO.getName())
                 .description(courseDTO.getDescription())
